@@ -19,3 +19,11 @@ Indentar de manera adecuada el codigo, no tener espacios en el principio
 Para comentar codigo `#`
 
 `len(var)` Para calcular la longitud de un **String**
+
+Asignamos el valor el input a una **variable**, a la cual se le asigna el valor y puede ser referenciada en un futuro, esta puede ser reasignada
+> `nombre = "Joaquin"`
+
+Al nombrar variables hacer un codigo legible, elegir nombres con sentido y que sean significativos, No empezar con numeros al inicio, para espaciarlas usar `_`
+
+
+Proyecto Dia 1: Band Name Generator
