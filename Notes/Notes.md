@@ -31,7 +31,7 @@ Proyecto Dia 1: Band Name Generator
 
 ## Day 2
 
-Primitive Data types:
+### Primitive Data Types
 
 - String
 - Integer
@@ -46,24 +46,26 @@ Primitive Data types:
 
 **Boolean** True o False, verdadero o falso
 
+### Type Error, Type Checking and Type Conversion
+
 *TypeError* es el cual nos indica que hay un error de tipo de dato en el codigo
 
 Para prevenir errores de tipos de datos podemos hacer **Type Cheking** y verificar el tipo de dato con la funcion `type()` la cual nos indica que tipo de dato es, ademas podemos convertir los tipos de datos en otros haciendo "Type Casting", podemos convertir con los siguientes prefijos:
 
 > str(var), int(var), float(var), boolean(var)
 
-**Mathematical Operators**
+### Mathematical Operators
 
 - `+` suma 3 + 5
 - `-` resta 7 - 4
 - `*` multiplicacion 3 * 2
 - `/` division 6 / 3
 - `**` elevado 2 ** 3
-- `%` resto 2 % 5
+- `%` modulo 2 % 5
 
 Recordar el orden de las operaciones matematicas, PEMDAS Parentesis, Exponentes, (Multiplicacion, Division), (Adicion y Sustraccion), Desde la izquierda a la derecha
 
-**Number Manipulation and F Strings**
+### Number Manipulation and F Strings
 
 Para redondondear un numero usamos la funcion `round()`
 
@@ -79,4 +81,101 @@ En frente de las dobles comillas o simples comillas escibimos el caracter `f`, u
 
 > Ex: `print(f"La variable es:" {var})`
 
-**Proyecto Dia 2: Tip Calculator**
+**Proyecto Dia 2:** Tip Calculator
+
+## Day 3
+
+### Control flow with if / else and Conditional Operators
+
+conditional
+**if / else**, dependiendo de una condicion en particular, hariamos A o B
+
+```python
+if condition:
+    do this
+else:
+    do this
+```
+
+Comparison Operators
+
+| Operador | Significado   |
+| -------- | ------------- |
+| >        | Mayor que     |
+| <        | Menor que     |
+| >=       | Mayor o igual |
+| <=       | Menor o igual |
+| ==       | Igualdad      |
+
+> RECORDAR que `=` es para asignar y `==` para comparar igualdad
+
+Operacion modulo, retorna el resto de una division inexacta
+
+### Nested if statements and elif statements
+
+Podemos anidar declaraciones if/else, para poner multiples condiciones
+
+```python
+if condition:
+    if another condition:
+        do this
+    else:
+        do this
+else:
+    do this
+```
+
+En vez de tener un if/else con solo una condicion, podemos agregar tantas condiciones **elif** queramos
+
+if / elif / else
+
+```python
+if condition1:
+    do A
+elif condition2:
+    do B
+else:
+    do this
+```
+
+> Solo una de las condiciones se ejecutara A, B o C, Si la condicion A es cierta entonces haz A, si no es cierto comprueba la condicion 2, en caso de que sea verdadero hace B, si ninguna de las condiciones es verdadera, realiza el ultimo else
+
+### Multiple If Statements in Succession
+
+Para comprobar multiples condiciones, aun que la anterior sea cierta
+
+Multiple if
+
+```python
+if condition1:
+    do A
+if condition2:
+    do B
+if condition3:
+    do C
+```
+
+> Se comprueban las tres condiciones y si las tres son verdaderas, A, B, y C se ejecutan
+> Recordar tener cuidado con la identacion de las condicionales
+
+### Logical Operators
+
+Podemos aplicar multiples if/else, o sentencias if/else anidadas, Es posible combinar diferentes condiciones
+
+| Operador | Significado       |
+| -------- | ----------------- |
+| and      | ambos verdad      |
+| or       | una verdadera     |
+| not      | invierte el valor |
+
+```python
+if condition1 & condition2 & condition3:
+    do this
+else:
+    do this
+```
+
+- The `lower()` function changes all the letters in a string to lowercase. [link](https://stackoverflow.com/questions/6797984/how-do-i-lowercase-a-string-in-python)
+- The `count()` function will give you the number of times a letter occurs in a string. [link](https://stackoverflow.com/questions/1155617/scount-the-number-occurrences-of-a-character-in-a-string)
+
+**Proyecto Dia 3:** Juego Isla del tesoro
