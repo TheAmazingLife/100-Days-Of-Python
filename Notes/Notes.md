@@ -179,3 +179,21 @@ else:
 - The `count()` function will give you the number of times a letter occurs in a string. [link](https://stackoverflow.com/questions/1155617/scount-the-number-occurrences-of-a-character-in-a-string)
 
 **Proyecto Dia 3:** Juego Isla del tesoro
+
+## Day 4
+
+### Random Module
+
+Para generar numeros pseeudo aleatoreos
+
+Importamos la libreria random
+
+```python
+import random
+```
+
+`random(a, b)` retorna un numero aleatoreo, entre el rango de a y b incluyendolos, a no puede ser mayor a b
+
+```python
+
+```
