@@ -186,7 +186,7 @@ else:
 
 Para generar numeros pseeudo aleatoreos
 
-Importamos la libreria random
+Importamos el modulo (libreria) random
 
 ```python
 import random
@@ -195,5 +195,12 @@ import random
 `random(a, b)` retorna un numero aleatoreo, entre el rango de a y b incluyendolos, a no puede ser mayor a b
 
 ```python
-
+random.randint(a, b)
 ```
+
+**Modulo**, dividimos un codigo extenso en modulos, importamos los modulos para usar su funcionalidad
+
+> Podemos crear nuestras propios modulos y de esa manera estructurar mejor el codigo.
+> Para ello creamos el archivo .py y en nuestro codigo lo importamos mediante la palabra clave `import`, y para acceder, mediante `nombre.atributo`
+
+`random()´ retorna un numero aleatoreo en el intervalo [0,1)
