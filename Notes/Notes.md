@@ -204,3 +204,48 @@ random.randint(a, b)
 > Para ello creamos el archivo .py y en nuestro codigo lo importamos mediante la palabra clave `import`, y para acceder, mediante `nombre.atributo`
 
 `random()´ retorna un numero aleatoreo en el intervalo [0,1)
+
+Multiplicando el numero aleatoreo por un numero n, podemos modificar el intervalo entre [0, n)
+
+### Offset and Appending Items to List
+
+**Listas**, estructura de datos, es una manera de organizar y almacenar los datos.
+
+> No basta con almacenar datos en variables individuales, tambien podemos almacenar datos agrupados, que tienes algun tipo de conexion entre si.
+> Podemos almacenar datos agrupados y ordenados segun nuestra preferencia
+
+**Listas**, conjunto de corchetes con elementos en su interior, puedesn ser de cualquier tipo de dato, incluso tipos de datos mixtos, como strings, ints booleans
+
+```python
+list = [item1, item2]
+fruits = ["Cherry", "Apple", "Pear"]
+```
+
+> Corechete de apertura y cierre, entre ellos, elementos separados por una coma
+> Asigamos la lista a una variable
+
+Podemos utilizar una lista para almacenar muchos datos relacionados, pero a su vez tienen un orden, el cual es otorgado mediante el orden en la lista
+
+Al acceder a la lista, recordar que se inicia con el 0 
+
+Accedemos mediante `lista[i]` siendo i el indice (contando desde 0) de la posicion que queremos consultar. (posemos consultar con i negativos, lo que haria partir desde la parte de atras)
+
+`.append()` para agregar valores al final de la lista
+
+`.extends()` para agregar un monton de valores al final de la lista
+
+`.remove(x)` remover el primer item de la lista igual a "x"
+
+[Documentacion Listas](https://docs.python.org/3/tutorial/datastructures.html)
+
+> `.split()` nos permite dividir una cadena en componentes separados, basados en un separador
+>
+> `random.choice(list)` aleatoreamente elige un elemento de la lista
+
+[Convertir String a Lista](https://www.askpython.com/python/string/convert-string-to-list-in-python)
+
+### IndexErrors and Working with Nested Lists
+
+Para tener una lista anidada new
+
+## Day 5
