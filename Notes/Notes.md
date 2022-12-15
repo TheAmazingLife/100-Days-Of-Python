@@ -264,11 +264,13 @@ edad = [19, 20]
 nombe_edad = [nombre, edad]
 ```
 
-> Para navegar en una lista de listas, usamos un sistema de coordenadas `print[colum][row]`
+> Para navegar en una lista de listas, usamos un sistema de coordenadas `print[row][colum]`
 
-- Primer digito especifica la **Columna** (posicion eje horizontal)
-- Segundo digito especifica la **Fila** (posicion eje vertical)
+- Primer digito especifica la **Fila** (posicion eje horizontal)
+- Segundo digito especifica la **Columna** (posicion eje vertical)
 
-> Poner observacion en el orden de las coordenadas, visualizar las coordenadas de listas de listas como [columna][fila], no como un arreglo bidimensional de [fila][columna]
+> Poner observacion en el orden de las coordenadas, visualizar las coordenadas de listas de listas como [fila][columna], y revisar la entrada detalladamente
+
+
 
 ## Day 5
