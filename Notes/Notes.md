@@ -226,7 +226,7 @@ fruits = ["Cherry", "Apple", "Pear"]
 
 Podemos utilizar una lista para almacenar muchos datos relacionados, pero a su vez tienen un orden, el cual es otorgado mediante el orden en la lista
 
-Al acceder a la lista, recordar que se inicia con el 0 
+Al acceder a la lista, recordar que se inicia con el **0**
 
 Accedemos mediante `lista[i]` siendo i el indice (contando desde 0) de la posicion que queremos consultar. (posemos consultar con i negativos, lo que haria partir desde la parte de atras)
 
@@ -246,6 +246,29 @@ Accedemos mediante `lista[i]` siendo i el indice (contando desde 0) de la posici
 
 ### IndexErrors and Working with Nested Lists
 
-Para tener una lista anidada new
+`IndexError: list index out of range` al intentar acceder a un indice inexistente, fuera de limites
+
+> Buen habito a hacer es tener una variable de logitud del arreglo y restar una posicion al momento de utilizarla
+
+```python
+num_length = len(array)
+print(arr[num_length - 1])
+```
+
+Para tener una lista anidada a otra lista meidante una lista que contiene dos listas.
+
+```python
+nombre = ["joaquin", "ignacio"]
+edad = [19, 20]
+
+nombe_edad = [nombre, edad]
+```
+
+> Para navegar en una lista de listas, usamos un sistema de coordenadas `print[colum][row]`
+
+- Primer digito especifica la **Columna** (posicion eje horizontal)
+- Segundo digito especifica la **Fila** (posicion eje vertical)
+
+> Poner observacion en el orden de las coordenadas, visualizar las coordenadas de listas de listas como [columna][fila], no como un arreglo bidimensional de [fila][columna]
 
 ## Day 5
