@@ -271,6 +271,41 @@ nombe_edad = [nombre, edad]
 
 > Poner observacion en el orden de las coordenadas, visualizar las coordenadas de listas de listas como [fila][columna], y revisar la entrada detalladamente
 
-
+**Proyecto Dia 4:** Piedra, Papel, Tijera
 
 ## Day 5
+
+### Using the for loop with Python Lists
+
+Loops o bucles, son cosas que repiten una y otra vez, ejecuta la misma linea de codigo multiples veces
+
+Podemos ejecutar un bloque de codigo multiples veces
+
+For Loop, recorrer cada elemento de una lista y realizar alguna accion con cada uno de ellos individualmente, podemosrealizar multiples
+
+```python
+for item in list_of_items:
+    #Do something to each item
+```
+
+> Toma la lista, y asigna la variable a cada uno de ellos
+
+`sum(a)` a es la lista , suma todos los números de la lista a y toma el inicio como 0, por lo que devuelve sólo la suma de los números de la lista.
+
+`max()` devuelve el mayor elemento de un iterable o el mayor de dos o más argumentos. En el caso de cadenas, devuelve el valor lexicográficamente mayor.
+
+> Usar nombres consistentes y explicativos, que se refieran a forma singular de cada uno de los elementos o su funcionalidad
+
+Recorriendo listas, los elementos de la lista y haciendo cosas con ella
+
+Podemos ocupar for loops completamente independientes de las listas, usando For Loops con Rango
+
+`range()` si queremos generar un rango de numeros para un bucle
+
+```python
+for number in range(a, b):
+    print(number)
+```
+
+> En vez de recorrer una lista recorremos un rango, entre a y b, de esa manera accedemos a los numeros dentro de ese rango [a, b), no incuyendo el numero maximo
+> Para incrementar por cualquier otro numero, agragamos otra coma al final del rango y especificamos el tamanio del incremento
