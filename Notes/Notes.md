@@ -309,3 +309,9 @@ for number in range(a, b):
 
 > En vez de recorrer una lista recorremos un rango, entre a y b, de esa manera accedemos a los numeros dentro de ese rango [a, b), no incuyendo el numero maximo
 > Para incrementar por cualquier otro numero, agragamos otra coma al final del rango y especificamos el tamanio del incremento
+
+`random.shuffle(list)` Para cambiar el orden de los elementos en una lista, retroana la lista desordenada
+
+Solucion mas sencilla para desodenar una creacion de una string, agregar todos a una lista y desordenarla y volverla una string
+
+**Proyecto Dia 5:** Generador de contrasenia
