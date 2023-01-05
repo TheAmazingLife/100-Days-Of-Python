@@ -315,3 +315,65 @@ for number in range(a, b):
 Solucion mas sencilla para desodenar una creacion de una string, agregar todos a una lista y desordenarla y volverla una string
 
 **Proyecto Dia 5:** Generador de contrasenia
+
+## Day 6
+
+### Defining and Calling Python Functions
+
+Funciones
+
+A grandes rasgos, una funcion es un bloque de codigo que realiza una cierta operacion, se pueden definir parametros de entrada que permiten al llamar a la funcion ser pasados a esta, ademas podemos tambien devolver un valor como salida, podemos llamar a la funcion cuantas veces queramos.
+
+La principal caracteristica de las funciones es la **encapsulacion** de operaciones en un solo bloque que puede ser **reutilizable**.
+
+La funcion puede ser llamada o invocada desde cualquier lugar del programa. Los valores que se pasan a la funcion son los **parametros** o **argumentos**.
+
+> Idealmente un buen diseno de una funciones tiene como objetivo que realizen una sola tarea bien definida. Los algoritmos complejos deben dividirse en funciones mas sencillas y faciles de comprender, idealmente con un nombre que describa claramente lo que hace la funcion
+
+Su caracteristica visual mas comun es la utilizacion de parentesis `()` al final del nombre de la variable, lo que esta dentro de los parentesis son los **parametros** de la funcion.
+
+```python
+# Definir una Funcion
+def my_function():
+    # Do this
+    # Then do this
+    # Finally do this
+
+# Llamar una funcion
+my_function()
+```
+
+> **Definimos la funcion**, con la Palabra clave `def` seguido del nombre que diferenciara a la funcion, luego entre parentesis las variables, para finalizar en dos puntos `:` que indicaran que todo lo que este despues de esta linea (indentado correctamente) pertenecera a la funcion.
+
+Para llamar a una funcion escribimos el nombre de la funcion, seguido de los parentesis y la entrada necesaria.
+
+[Funciones incorporadas](https://docs.python.org/3/library/functions.htmlhttps://docs.python.org/3/library/functions.html)
+
+### Indentation in Python
+
+Indentacion define la jerarquia de bloques, cada sangria se define como 4 espacios, se podria ver la estructura de indentacion como la estructura de carpetas en el explorador, cada carpeta tiene sub carpetas indentadas en un subnivel
+
+`ctrl + [` o `ctrl + ]` para indentar un bloque de codigo
+
+### While Loops
+
+Bucle While que se ejecuta repetidas veces mientras la condicion sea cierta
+Mientras la condicion es verdadera entonces vamos dentro del bucle y repetimos, y solamente cuando se convierte en falso el bucle se detiene
+
+```python
+# For
+for item in list_of_items:
+    # Do something to each item
+for number in range(a,b)
+    print(number)
+
+# While
+while something_true:
+    #Do something repeatedly
+```
+
+> Para hacer un loop mientras no estemos en una parte podemos definirlo como `while at_goal() != True:` o mas comodamente `while not at_goal():`
+
+Los bulces while son mas peligrosos que los bucles for, ya que en los bulces for establecemos la cantidad de iteraciones y se detendra cuando llegue al final, pero en los bucles whiles ejecutaremos hasta que esta condicion particular cambie a false.
+
+Infinite loops, el codigo se ejecutara infinitamente
