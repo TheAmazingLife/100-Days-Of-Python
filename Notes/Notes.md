@@ -2,6 +2,30 @@
 
 Start day: December 4, 2022
 
+- [100 Days Of Code](#100-days-of-code)
+  - [Day 1](#day-1)
+  - [Day 2](#day-2)
+    - [Primitive Data Types](#primitive-data-types)
+    - [Type Error, Type Checking and Type Conversion](#type-error-type-checking-and-type-conversion)
+    - [Mathematical Operators](#mathematical-operators)
+    - [Number Manipulation and F Strings](#number-manipulation-and-f-strings)
+  - [Day 3](#day-3)
+    - [Control flow with if / else and Conditional Operators](#control-flow-with-if--else-and-conditional-operators)
+    - [Nested if statements and elif statements](#nested-if-statements-and-elif-statements)
+    - [Multiple If Statements in Succession](#multiple-if-statements-in-succession)
+    - [Logical Operators](#logical-operators)
+  - [Day 4](#day-4)
+    - [Random Module](#random-module)
+    - [Offset and Appending Items to List](#offset-and-appending-items-to-list)
+    - [IndexErrors and Working with Nested Lists](#indexerrors-and-working-with-nested-lists)
+  - [Day 5](#day-5)
+    - [Using the for loop with Python Lists](#using-the-for-loop-with-python-lists)
+  - [Day 6](#day-6)
+    - [Defining and Calling Python Functions](#defining-and-calling-python-functions)
+    - [Indentation in Python](#indentation-in-python)
+    - [While Loops](#while-loops)
+
+
 ## Day 1
 
 `print()` imprimir lo que esta dentro de los parentesis
